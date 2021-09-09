@@ -1,7 +1,7 @@
 {
-  "name": "itsdlylan.github.io",
+  "name": "dopefolio",
   "version": "1.0.0",
-  "description": "Dylan Schwindt's Developer Portfolio",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "compile:scss": "node-sass sass/main.scss css/style.css -w",
@@ -9,21 +9,12 @@
     "compress:css": "node-sass css/style.css css/style.css --output-style compressed",
     "build": "npm-run-all prefix:css compress:css"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ItsDlylan/ItsDlylan.github.io.git"
-  },
-  "keywords": [],
-  "author": "Dylan Schwindt",
-  "license": "ISC",
+  "author": "",
+  "license": "GPL-3.0",
   "devDependencies": {
     "autoprefixer": "^10.3.1",
     "node-sass": "^6.0.1",
     "npm-run-all": "^4.1.5",
     "postcss-cli": "^8.3.1"
-  },
-  "bugs": {
-    "url": "https://github.com/ItsDlylan/ItsDlylan.github.io/issues"
-  },
-  "homepage": "https://github.com/ItsDlylan/ItsDlylan.github.io#readme"
+  }
 }
