@@ -19,21 +19,30 @@ headerLogoConatiner.addEventListener('click', () => {
 const sendEmail = (e) => {
 	e.preventDefault();
 	console.log('hit');
-	emailjs
-		.sendForm(
-			'service_begjst4',
-			'aebf7c8be72205c3b67521842b2b2021',
-			e.target,
-			'user_SCXmKosxT5hSDF3lbDIFb',
-		)
-		.then(
-			(result) => {
-				console.log(result.text);
-			},
-			(error) => {
-				console.log(error.text);
-			},
-		);
+	// 	emailjs
+	// 		.sendForm(
+	// 			'service_begjst4',
+	// 			'aebf7c8be72205c3b67521842b2b2021',
+	// 			e.target,
+	// 			'user_SCXmKosxT5hSDF3lbDIFb',
+	// 		)
+	// 		.then(
+	// 			(result) => {
+	// 				console.log(result.text);
+	// 			},
+	// 			(error) => {
+	// 				console.log(error.text);
+	// 			},
+	// 		);
+	// };
+	emailjs.sendForm('service_begjst4', 'service_begjst4', e.target).then(
+		function (response) {
+			console.log('SUCCESS!', response.status, response.text);
+		},
+		function (err) {
+			console.log('FAILED...', err);
+		},
+	);
 };
 
 const form = document.querySelector('.contact__form');
