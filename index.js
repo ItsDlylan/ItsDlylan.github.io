@@ -1,5 +1,3 @@
-import emailjs from 'emailjs-com';
-
 // ---
 const hamMenuBtn = document.querySelector('.header__main-ham-menu-cont');
 const smallMenu = document.querySelector('.header__sm-menu');
@@ -20,7 +18,7 @@ headerLogoConatiner.addEventListener('click', () => {
 });
 const sendEmail = (e) => {
 	e.preventDefault();
-
+	console.log('hit');
 	emailjs
 		.sendForm(
 			'gmail',
