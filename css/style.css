@@ -40,7 +40,7 @@ body {
   font-family: sans-serif;
   overflow-x: hidden;
   overflow-y: scroll;
-  font-family: 'Source Sans Pro', sans-serif; }
+  font-family: 'Montserrat', sans-serif; }
 
 a {
   text-decoration: none;
@@ -63,7 +63,7 @@ textarea {
   resize: none; }
 
 .heading-primary {
-  font-size: 6rem;
+  font-size: 4.2rem;
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center; }
@@ -179,7 +179,7 @@ textarea {
 
 .home-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url(../../assets/jpeg/revolt-V0m4dPa5kNw-unsplash.jpeg);
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -314,7 +314,7 @@ textarea {
           font-size: 1.7rem; } }
 
 .contact {
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url(../../assets/svg/common-bg.svg);
   background-size: cover;
   background-position: center; }
   .contact__form-container {
@@ -393,9 +393,26 @@ textarea {
       .contact__btn {
         width: 100%; } }
 
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%; }
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
 .project-cs-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8)), url(../../assets/svg/common-bg.svg);
+  background: url(../../assets/svg/common-bg.svg);
+  /* background by SVGBackgrounds.com */
   background-size: cover;
   background-position: center;
   position: relative; }

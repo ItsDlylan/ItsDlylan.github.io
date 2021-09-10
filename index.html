@@ -12,7 +12,7 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;700;900&display=swap"
 			rel="stylesheet"
 		/>
 	</head>
@@ -20,13 +20,13 @@
 		<header class="header">
 			<div class="header__content">
 				<div class="header__logo-container">
-					<div class="header__logo-img-cont">
-						<img
+					<!-- <div class="header__logo-img-cont"> -->
+					<!-- <img
 							src="./assets/png/john-doe.png"
 							alt="Dylan Logo Image"
 							class="header__logo-img"
 						/>
-					</div>
+					</div> -->
 					<span class="header__logo-sub">Dylan Schwindt</span>
 				</div>
 				<div class="header__main">
@@ -154,7 +154,7 @@
 								Hey! It's
 								<strong>Dylan Schwindt</strong>
 								and I'm a
-								<strong> Frontend Web Developer </strong>
+								<strong> Full Stack Web Developer </strong>
 								located in Las Vegas. I've done
 								<strong> remote </strong>
 								projects to learn and understand different
@@ -176,14 +176,31 @@
 						>
 					</div>
 					<div class="about__content-skills">
-						<h3 class="about__content-title">My Skills</h3>
+						<h3 class="about__content-title">Skills</h3>
 						<div class="skills">
-							<div class="skills__skill">HTML</div>
-							<div class="skills__skill">CSS</div>
-							<div class="skills__skill">SASS</div>
-							<div class="skills__skill">JavaScript</div>
-							<div class="skills__skill">React</div>
-							<div class="skills__skill">GIT</div>
+							<div class="skills__skill">Mentoring</div>
+							<div class="skills__skill">
+								Customer Satisfaction
+							</div>
+							<div class="skills__skill">Teamwork</div>
+							<div class="skills__skill">Active Learning</div>
+							<div class="skills__skill">Critical Thinking</div>
+						</div>
+						<div class="about__content-skills">
+							<h3 class="about__content-title"></h3>
+							<div class="skills">
+								<div class="skills__skill">HTML</div>
+								<div class="skills__skill">CSS</div>
+								<div class="skills__skill">SASS</div>
+								<div class="skills__skill">JavaScript</div>
+								<div class="skills__skill">React</div>
+								<div class="skills__skill">GIT</div>
+								<div class="skills__skill">Express</div>
+								<div class="skills__skill">PostgreSQL</div>
+								<div class="skills__skill">Cypress</div>
+								<div class="skills__skill">Jest</div>
+								<div class="skills__skill">CI/CD</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -194,9 +211,7 @@
 				<h2 class="heading heading-sec heading-sec__mb-bg">
 					<span class="heading-sec__main">Projects</span>
 					<span class="heading-sec__sub">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Hic facilis tempora explicabo quae quod deserunt eius
-						sapiente
+						Dabbled into some Technologies and outputed these
 					</span>
 				</h2>
 
@@ -204,25 +219,21 @@
 					<div class="projects__row">
 						<div class="projects__row-img-cont">
 							<img
-								src="./assets/jpeg/project-mockup-example.jpeg"
+								src="./assets/png/project-mockup-Natours.png"
 								alt="Software Screenshot"
 								class="projects__row-img"
 								loading="lazy"
 							/>
 						</div>
 						<div class="projects__row-content">
-							<h3 class="projects__row-content-title">
-								Project 1
-							</h3>
+							<h3 class="projects__row-content-title">Natours</h3>
 							<p class="projects__row-content-desc">
-								Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Hic facilis tempora, explicabo
-								quae quod deserunt eius sapiente praesentium.
+								Following a Udemy Course I upgraded the template
+								site to work on my SASS animation skills
 							</p>
 							<a
 								href="./project-1.html"
 								class="btn btn--med btn--theme dynamicBgClr"
-								target="_blank"
 								>Case Study</a
 							>
 						</div>
@@ -230,7 +241,7 @@
 					<div class="projects__row">
 						<div class="projects__row-img-cont">
 							<img
-								src="./assets/jpeg/project-mockup-example.jpeg"
+								src="./assets/png/project-mockup-ProList.png"
 								alt="Software Screenshot"
 								class="projects__row-img"
 								loading="lazy"
@@ -238,17 +249,15 @@
 						</div>
 						<div class="projects__row-content">
 							<h3 class="projects__row-content-title">
-								Project 2
+								Pro-List
 							</h3>
 							<p class="projects__row-content-desc">
-								Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Hic facilis tempora, explicabo
-								quae quod deserunt eius sapiente praesentium.
+								My First Ever Project built with React.js and
+								its Functional Components
 							</p>
 							<a
 								href="./project-2.html"
 								class="btn btn--med btn--theme dynamicBgClr"
-								target="_blank"
 								>Case Study</a
 							>
 						</div>
@@ -274,7 +283,6 @@
 							<a
 								href="./project-3.html"
 								class="btn btn--med btn--theme dynamicBgClr"
-								target="_blank"
 								>Case Study</a
 							>
 						</div>
@@ -323,6 +331,18 @@
 						</div>
 						<div class="contact__form-field">
 							<label class="contact__form-label" for="message"
+								>Subject</label
+							>
+							<textarea
+								required
+								cols="15"
+								rows="1"
+								class="contact__form-input"
+								placeholder="Enter Your Message"
+								name="message"
+								id="message"
+							></textarea>
+							<label class="contact__form-label" for="message"
 								>Message</label
 							>
 							<textarea
@@ -353,7 +373,11 @@
 							<span>Social</span>
 						</h2>
 						<div class="main-footer__social-cont">
-							<a target="_blank" rel="noreferrer" href="#">
+							<a
+								target="_blank"
+								rel="noreferrer"
+								href="https://www.linkedin.com/in/dylanschwindt/"
+							>
 								<img
 									class="main-footer__icon"
 									src="./assets/png/linkedin-ico.png"
@@ -382,33 +406,21 @@
 									alt="icon"
 								/>
 							</a>
-							<a target="_blank" rel="noreferrer" href="#">
+							<a
+								target="_blank"
+								rel="noreferrer"
+								href="https://www.youtube.com/channel/UCDcPX4h6cZwR8wftVWKAC1A"
+							>
 								<img
 									class="main-footer__icon"
 									src="./assets/png/yt-ico.png"
 									alt="icon"
 								/>
 							</a>
-							<a
-								target="_blank"
-								rel="noreferrer"
-								href="https://www.instagram.com/motodlylan/"
-							>
-								<img
-									class="
-										main-footer__icon
-										main-footer__icon--mr-none
-									"
-									src="./assets/png/insta-ico.png"
-									alt="icon"
-								/>
-							</a>
 						</div>
 					</div>
 					<div class="main-footer__row main-footer__row-2">
-						<h4 class="heading heading-sm text-lt">
-							Dylan Schwindt
-						</h4>
+						<h4 class="heading heading-sm text-lt">Dylan</h4>
 						<p class="main-footer__short-desc">
 							Thanks for peaking interest in my work! I'd love to
 							connect! Send me a message above and let's get
