@@ -21,7 +21,7 @@ const sendEmail = (e) => {
 	console.log('hit');
 	emailjs
 		.sendForm(
-			'gmail',
+			'service_begjst4',
 			'aebf7c8be72205c3b67521842b2b2021',
 			e.target,
 			'user_SCXmKosxT5hSDF3lbDIFb',
