@@ -35,14 +35,21 @@ const sendEmail = (e) => {
 	// 			},
 	// 		);
 	// };
-	emailjs.sendForm('service_begjst4', 'service_begjst4', e.target).then(
-		function (response) {
-			console.log('SUCCESS!', response.status, response.text);
-		},
-		function (err) {
-			console.log('FAILED...', err);
-		},
-	);
+	emailjs
+		.sendForm(
+			'service_begjst4',
+			'service_begjst4',
+			e.target,
+			'user_SCXmKosxT5hSDF3lbDIFb',
+		)
+		.then(
+			function (response) {
+				console.log('SUCCESS!', response.status, response.text);
+			},
+			function (err) {
+				console.log('FAILED...', err);
+			},
+		);
 };
 
 const form = document.querySelector('.contact__form');
