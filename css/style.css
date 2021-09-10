@@ -393,6 +393,14 @@ textarea {
       .contact__btn {
         width: 100%; } }
 
+.form__message {
+  text-align: center;
+  margin-top: 5rem;
+  width: 100%; }
+  .form__message h1 {
+    color: black;
+    font-size: 2rem; }
+
 .embed-container {
   position: relative;
   padding-bottom: 56.25%;
