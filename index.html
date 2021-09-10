@@ -302,7 +302,7 @@
 					</span>
 				</h2>
 				<div class="contact__form-container">
-					<form action="#" class="contact__form">
+					<form class="contact__form">
 						<div class="contact__form-field">
 							<label class="contact__form-label" for="name"
 								>Name</label
@@ -317,7 +317,10 @@
 							/>
 						</div>
 						<div class="contact__form-field">
-							<label class="contact__form-label" for="email"
+							<label
+								class="contact__form-label"
+								name="email"
+								for="email"
 								>Email</label
 							>
 							<input
@@ -338,8 +341,8 @@
 								cols="15"
 								rows="1"
 								class="contact__form-input"
-								placeholder="Enter Your Message"
-								name="message"
+								placeholder="Enter the Subject"
+								name="subject"
 								id="message"
 							></textarea>
 							<label class="contact__form-label" for="message"
@@ -357,6 +360,7 @@
 						</div>
 						<button
 							type="submit"
+							value="send"
 							class="btn btn--theme contact__btn"
 						>
 							Submit
